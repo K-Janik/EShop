@@ -7,11 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public class ProductList {
+public class ProductRepository {
 
     protected List<Product> productList =new ArrayList<>();
 
-    public ProductList() {
+    public ProductRepository() {
         Product product1 = new Product("Gacie");
         Product product2 = new Product("Lacie");
         Product product3 = new Product("Fuzekle");
