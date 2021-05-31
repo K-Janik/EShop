@@ -9,7 +9,7 @@ import java.util.List;
 @Repository
 public class ProductRepository {
 
-    protected List<Product> productList =new ArrayList<>();
+    private static List<Product> productList =new ArrayList<>();
 
     public ProductRepository() {
         Product product1 = new Product("Gacie");
